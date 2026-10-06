@@ -4,4 +4,5 @@
 from random import choice
 nomes = ["Miguel", "Kaio", "Leonardo", "Gustavo A"]
 
-
+escolhido = choice(nomes)
+print(f"O nome escolhido foi para ajudar o Rian foi: {escolhido}")

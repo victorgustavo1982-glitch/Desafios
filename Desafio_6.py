@@ -10,3 +10,17 @@
 # Nome: Gustavo B
 # Hora : 15
 # Boa Tarde, Gustavo B
+
+nome = ["Allana", "Gustavo B", "Rian"]
+
+def cumprimentar(nome, horas):
+    if horas >=5 and horas <= 12:
+        print(f"Bom Dia {nome}")
+    elif horas <= 18:
+        print(f"Boa Tarde {nome}")
+    else:
+        print(f"Boa noite {nome}")
+
+cumprimentar(nome[0], 9)
+cumprimentar(nome[1], 15)
+cumprimentar(nome[2], 21)
